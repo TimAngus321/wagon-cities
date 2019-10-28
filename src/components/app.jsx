@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const App = () => {
-  return (
-    <div className="app">
-      <p>React + Redux starter</p>
+class App extends Component {
+  render() {
+    <div>
+      <Flatlist />
+      <Map />
     </div>
-  );
-};
+  }
+}
 
 export default App;
