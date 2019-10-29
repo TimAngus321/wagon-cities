@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    <div>
-      <Flatlist />
-      <Map />
+import CityList from '../containers/city_list';
+import City from '../containers/city';
+import ActiveCity from '../containers/active_city';
+
+const App = () => {
+  render(
+    <div className='app'>
+      <CityList />
+      <ActiveCity />
     </div>
-  }
-}
+    );
+};
 
 export default App;
