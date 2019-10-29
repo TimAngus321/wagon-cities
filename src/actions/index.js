@@ -1,6 +1,7 @@
 // TODO: add and export your own actions
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactRedux from 'react-redux';
 
 import '../assets/stylesheets/application.scss';
 
